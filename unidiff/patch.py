@@ -309,10 +309,6 @@ class PatchSet(list):
 
         diff = enumerate(diff, 1)
         for unused_diff_line_no, line in diff:
-            #print unused_diff_line_no
-            #print line
-            print encoding
-            raw_input()
             if encoding is not None:#don't care - stuff about non utf-8 files
                 line = line.decode(encoding)
             # check for source file header
