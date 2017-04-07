@@ -1,6 +1,10 @@
 Unidiff
 =======
 
+
+TODO: Credit tsaunier 
+====================
+
 Simple Python library to parse and interact with unified diff data.
 
 [![Build Status](https://travis-ci.org/matiasb/python-unidiff.png?branch=master)](https://travis-ci.org/matiasb/python-unidiff)
